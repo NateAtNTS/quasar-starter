@@ -2,7 +2,9 @@
   <q-layout view="hHh lpR lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-icon name="fas fa-star" />
+        <q-avatar square>
+          <img src="statics/icons/favicon-128x128.png">
+        </q-avatar>
         <q-toolbar-title>
           {{ appName }}
         </q-toolbar-title>
