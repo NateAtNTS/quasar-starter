@@ -1,5 +1,13 @@
 <template>
-  <q-page class="q-pt-lg">
+  <q-page>
+
+    <div class="row q-pl-lg q-pb-lg q-pt-md">
+      <div class="col-md-12">
+        <q-breadcrumbs>
+          <q-breadcrumbs-el label="Dashboard" icon="fas fa-home"/>
+        </q-breadcrumbs>
+      </div>
+    </div>
 
     <div class="row justify-center q-mt-lg">
 

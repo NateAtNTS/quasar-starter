@@ -50,9 +50,17 @@ APP_NAME='Quasar Starter Project'
 API_BASEURL='http://baseapi.test/'
 ```
 
+# Change the Local Storage Key
+If you use this starter project, you will need to change the local storage key that stores
+the user credentials.
+- Do a project search for instances of `localStorage.`
+- Change the Key to a unique key.
+
+
 # Quasar Commands
 - `quasar dev`
 - `quasar build`
 
-### Customize the configuration
+# Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+

@@ -1,5 +1,15 @@
 <template>
-  <q-page class="q-pa-sm">
+  <q-page>
+
+    <div class="row q-pl-lg q-pb-lg q-pt-md">
+      <div class="col-md-12">
+        <q-breadcrumbs>
+          <q-breadcrumbs-el label="Dashboard" icon="fas fa-home" to="/" />
+          <q-breadcrumbs-el label="View Profile" icon="person" to="/viewprofile"/>
+          <q-breadcrumbs-el label="Edit Profile" icon="person_outline"/>
+        </q-breadcrumbs>
+      </div>
+    </div>
 
     <q-form @submit="onSubmit" class="q-py-lg">
       <div class="row justify-center q-mt-lg">
